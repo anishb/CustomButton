@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CustomButton.h"
 
 @interface CustomBarButtonItem : UIBarButtonItem
+
+- (id)initWithCustomView:(UIView *)view	target:(id)target action:(SEL)action;
 
 @end

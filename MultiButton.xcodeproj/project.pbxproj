@@ -24,6 +24,7 @@
 		68A03CFA18D7CCE600E69A27 /* iPhone_header_back_arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68A03CF918D7CCE600E69A27 /* iPhone_header_back_arrow@2x.png */; };
 		68A03CFC18D7CCF600E69A27 /* iPhone_header_cbseye@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68A03CFB18D7CCF600E69A27 /* iPhone_header_cbseye@2x.png */; };
 		68A03CFF18D7D5F600E69A27 /* CustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 68A03CFE18D7D5F600E69A27 /* CustomButton.m */; };
+		FA806DA018D8214800F8AE1B /* CustomBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = FA806D9F18D8214800F8AE1B /* CustomBarButtonItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,8 @@
 		68A03CFB18D7CCF600E69A27 /* iPhone_header_cbseye@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone_header_cbseye@2x.png"; sourceTree = "<group>"; };
 		68A03CFD18D7D5F600E69A27 /* CustomButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomButton.h; sourceTree = "<group>"; };
 		68A03CFE18D7D5F600E69A27 /* CustomButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomButton.m; sourceTree = "<group>"; };
+		FA806D9E18D8214800F8AE1B /* CustomBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomBarButtonItem.h; sourceTree = "<group>"; };
+		FA806D9F18D8214800F8AE1B /* CustomBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomBarButtonItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +129,8 @@
 				68A03CDA18D7CC4000E69A27 /* ViewController.m */,
 				68A03CFD18D7D5F600E69A27 /* CustomButton.h */,
 				68A03CFE18D7D5F600E69A27 /* CustomButton.m */,
+				FA806D9E18D8214800F8AE1B /* CustomBarButtonItem.h */,
+				FA806D9F18D8214800F8AE1B /* CustomBarButtonItem.m */,
 				68A03CDC18D7CC4000E69A27 /* Images.xcassets */,
 				68A03CCB18D7CC4000E69A27 /* Supporting Files */,
 			);
@@ -263,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				68A03CFF18D7D5F600E69A27 /* CustomButton.m in Sources */,
+				FA806DA018D8214800F8AE1B /* CustomBarButtonItem.m in Sources */,
 				68A03CDB18D7CC4000E69A27 /* ViewController.m in Sources */,
 				68A03CD518D7CC4000E69A27 /* AppDelegate.m in Sources */,
 				68A03CD118D7CC4000E69A27 /* main.m in Sources */,
@@ -470,6 +476,7 @@
 				68A03CF518D7CC4000E69A27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		68A03CF618D7CC4000E69A27 /* Build configuration list for PBXNativeTarget "MultiButtonTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +485,7 @@
 				68A03CF818D7CC4000E69A27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

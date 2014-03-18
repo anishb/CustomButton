@@ -10,4 +10,16 @@
 
 @implementation CustomBarButtonItem
 
+- (id)initWithCustomView:(UIView *)view target:(id)target action:(SEL)action
+{
+	self = [super init];
+	if (self) {
+		CustomButton *button = [[CustomButton alloc] initWithCustomView:view];
+		[button addTarget:target action:action forControlEvents:UIControlEventTouchUpInside];
+		self.customView = button;
+	}
+	return self;
+}
+
+
 @end

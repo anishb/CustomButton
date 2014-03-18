@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "CustomButton.h"
+#import "CustomBarButtonItem.h"
 
 @interface ViewController ()
 
@@ -31,11 +32,14 @@
 //    self.navigationItem.leftBarButtonItems = [NSArray arrayWithObjects:backButton, logoButton, nil];
    
    
-    CustomButton *customButton = [[CustomButton alloc] initWithCustomView:[self _customView]];
-    [customButton addTarget:self action:@selector(backPressed:) forControlEvents:UIControlEventTouchUpInside];
-    
-    UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithCustomView:customButton];
-    self.navigationItem.leftBarButtonItem = backButton;
+//    CustomButton *customButton = [[CustomButton alloc] initWithCustomView:[self _customView]];
+//    [customButton addTarget:self action:@selector(backPressed:) forControlEvents:UIControlEventTouchUpInside];
+//    
+//    UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithCustomView:customButton];
+    CustomBarButtonItem *backButton = [[CustomBarButtonItem alloc] initWithCustomView:[self _customView]
+																			   target:self
+																			   action:@selector(backPressed:)];
+	self.navigationItem.leftBarButtonItem = backButton;
                                   
 }
 
